@@ -1,6 +1,6 @@
 # ***********************************************************************************************
 # Backup GIT / Mercurial repos using SCM Backup docker image.
-# See build-container.ps1 for building the Docker image.
+# See build-image.ps1 for building the Docker image.
 # ***********************************************************************************************
 
 # Enable strict error handling
