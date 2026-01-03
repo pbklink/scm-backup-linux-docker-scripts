@@ -1,6 +1,6 @@
 $SCM_BACKUP_SOURCE_PATH = "/usr/local/src/scm-backup"
 $SCM_BACKUP_DOCKERFILE_PATH = Join-Path $SCM_BACKUP_SOURCE_PATH "Dockerfile"
-$TAG = "1.10.0" # Leave empty to use 'latest' tag - otherwise specify a tag like '1.10.0'
+$TAG = "1.10.1" # Leave empty to use 'latest' tag - otherwise specify a tag like '1.10.1'
 if ($TAG -ne "") {
     $COLONEDTAG = ":$TAG"
 } else {

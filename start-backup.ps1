@@ -41,7 +41,7 @@ try {
     docker run --rm `
         -v "${CURRENT_DIR}/settings.yml:/app/settings.yml" `
         -v "${BACKUP_DIR}:/app/backups" `
-        scmbackup:1.10.0
+        scmbackup:1.10.1
 }
 catch {
     Write-Error "ERROR: Failed to start SCM Backup."
